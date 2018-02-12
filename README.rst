@@ -19,16 +19,18 @@ Requirements
 For the stand-alone tools:
 
 - ``python 2.7.13``
-    + The ``python`` dependencies are specified in `requirements.txt <https://github.com/nataquinones/RNA3D/blob/master/requirements.txt>`_
+
+  - The ``python`` dependencies are specified in `requirements.txt <https://github.com/nataquinones/RNA3D/blob/master/requirements.txt>`_
 
 For the full pipleline (EC analysis and mapping):
 
 - ``plmc`` [`download <https://github.com/debbiemarkslab/plmc/>`_]
-
 - From ``Infernal 1.1.2`` [`download <http://eddylab.org/infernal/infernal-1.1.2.tar.gz>`_]
-    + ``cmalign``
-    + ``esl-alimask``
-    + ``esl-reformat``
+
+  - ``cmalign``
+  - ``esl-alimask``
+  - ``esl-reformat``
+
 
 Use
 ===
