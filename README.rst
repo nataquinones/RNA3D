@@ -6,11 +6,12 @@ Description
 ===========
 A set of scripts that allow for the processing of RNA alignments for the Evolutionary Couplings analysis. (It is an elaboration on 
 the process used in `Weinreb et al (2016) <https://marks.hms.harvard.edu/ev_rna/>`_.) The main tools allow to read and create
-Dot-plots of:
-1. Secondary structure annotations from Stockholm alignments.
-2. Evolutionary Couplings results.
-3. FR3D interactions (from `RNA Structure Atlas <http://rna.bgsu.edu/rna3dhub/pdb>`_.)
-4. Proximity of bases in a PDB file (given distance threshold)
+Dot-Plots of:
+
+1. Secondary structure annotations from RNA ``Stockholm`` alignments.
+2. Evolutionary Couplings computed with ``plmc``.
+3. ``FR3D``-annotated interactions (from `RNA Structure Atlas <http://rna.bgsu.edu/rna3dhub/pdb>`_.)
+4. Spatial proximity of bases in a ``PDB`` file (given distance threshold)
 
 Additionally, it includes a simple pipeline that allows to perform the necessary processing on an RNA alignment to perform the Evolutionary Couplings analysis and then plot the results against its annotated secondary structure and if desired, its 3D structure. An important feature of this pipeline is the ability to map the sequence from the original alignment (with the secondary structure annotation) to the reduced alignment (required for the EC computation) to the unaligned PDB sequence.
 
